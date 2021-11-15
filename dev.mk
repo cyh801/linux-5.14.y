@@ -1,6 +1,6 @@
 RELEASE ?=
 
-KERNEL_DEFCONFIG ?= rockchip_linux_defconfig
+KERNEL_DEFCONFIG ?= s905w_defconfig
 
 KERNEL_VERSION ?= $(shell $(KERNEL_MAKE) -s kernelversion)
 
